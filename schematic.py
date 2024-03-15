@@ -10,7 +10,7 @@ def generateSchematic(filename: str, path: str):
 
 	schem = mcschematic.MCSchematic()
 
-	BLOCK = 'minecraft:barrel{Items:[{Slot:0,id:wooden_axe,Count:1}]}'
+	BLOCK = 'minecraft:barrel{Items:[{Slot:0,id:redstone,Count:1}]}'
 	ZERO = 'minecraft:tinted_glass'
 
 	coordinateList = []
